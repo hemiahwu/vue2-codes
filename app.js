@@ -18,6 +18,10 @@ new Vue({
         },
         click: function(){
             alert('you clicked me');
+        },
+        stop:function(e){
+            e.stopPropagation();
+            
         }
     }
 });

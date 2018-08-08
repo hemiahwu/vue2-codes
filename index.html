@@ -14,7 +14,14 @@
             <button v-on:dblclick="add(10)">Add 10 Years</button>
             <button v-on:dblclick="subtract(10)">Subtract 10 Years</button>
             <p>My age is {{age}}</p>
-            <div id="canvas" v-on:mousemove.capture="updateXY">{{ x }} , {{ y }}</div>
+            <!-- 捕获阶段执行事件 -->
+            <!-- <div id="canvas" v-on:mousemove.capture="updateXY"> -->
+                    <div id="canvas" v-on:mousemove="updateXY">
+                {{ x }} , {{ y }}
+                <!-- <p @mousemove="stop" class="stop">STOP！！</p> -->
+                <!-- 阻止冒泡 -->
+                <p @mousemove.stop="" class="stop">STOP！！</p>
+            </div>
             <p><a v-on:click.prevent="click" href="http://www.thenetninja.co.uk">The Net Ninja</a></p>
         </div>
     </body>
