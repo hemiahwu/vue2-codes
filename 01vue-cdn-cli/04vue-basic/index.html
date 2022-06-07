@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>VueJS Tutorials</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://unpkg.com/vue"></script>
+</head>
+
+<body>
+    <div id="vue-app">
+        <h1>数据绑定</h1>
+        <p><a v-bind:href="website">米修教育</a></p>
+        <p v-html="websiteTag"></p>
+        <p><input type="text" v-bind:value="name" /></p>
+    </div>
+</body>
+
+<script src="app.js"></script>
+
+</html>

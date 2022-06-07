@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>VueJS Tutorials</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://unpkg.com/vue"></script>
+</head>
+
+<body>
+    <div id="vue-app">
+        <h1>Dynamic CSS</h1>
+        <!-- <h2>Example 1</h2>
+            <div v-on:click="available = !available" v-bind:class="{available: available}">
+                <span>米修教育</span>
+            </div> -->
+        <h2>Example 2</h2>
+        <button v-on:click="nearby = !nearby">切换 nearby</button>
+        <button v-on:click="available = !available">切换 available</button>
+        <div v-bind:class="compClasses">
+            <span>米修教育</span>
+        </div>
+    </div>
+</body>
+
+<script src="app.js"></script>
+
+</html>
