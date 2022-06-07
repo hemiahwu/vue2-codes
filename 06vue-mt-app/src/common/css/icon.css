@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'mt-app';
+  src:  url('../fonts/mt-app.eot?hbafk8');
+  src:  url('../fonts/mt-app.eot?hbafk8#iefix') format('embedded-opentype'),
+    url('../fonts/mt-app.ttf?hbafk8') format('truetype'),
+    url('../fonts/mt-app.woff?hbafk8') format('woff'),
+    url('../fonts/mt-app.svg?hbafk8#mt-app') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mt-app' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-thumb_up:before {
+  content: "\e900";
+}
+.icon-thumb_down:before {
+  content: "\e901";
+}
+.icon-shopping_cart:before {
+  content: "\e902";
+}
+.icon-remove_circle_outline:before {
+  content: "\e903";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e904";
+}
+.icon-favorite:before {
+  content: "\e905";
+}
+.icon-close:before {
+  content: "\e906";
+}
+.icon-check_circle:before {
+  content: "\e907";
+}
+.icon-arrow_lift:before {
+  content: "\e908";
+}
+.icon-add_circle:before {
+  content: "\e909";
+}
