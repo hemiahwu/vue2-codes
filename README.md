@@ -1,6 +1,6 @@
-# vue-零基础小白入门
+# 10个项目攻克vue2
 
-> Vue基础知识视频地址: https://study.163.com/course/courseMain.htm?courseId=1005121011&share=2&shareId=400000000198054
+> Vue2课程视频地址: https://study.163.com/course/courseMain.htm?courseId=1005121011&share=2&shareId=400000000198054
 
 ## Build Setup
 
